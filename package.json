@@ -1,0 +1,17 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "Helper scripts for ARPB2 project",
+  "main": "index.js",
+  "repository": "git@github.com:arpb2/scripts.git",
+  "author": "Martín Stancanelli <mastanca14@gmail.com>",
+  "license": "GPL-3.0-only",
+  "private": false,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "inquirer": "^7.1.0"
+  }
+}
