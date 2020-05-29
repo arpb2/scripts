@@ -19,4 +19,10 @@ inquirer.prompt([
           
           break;
   }  
+}).catch(error => {
+    if(error.isTtyError) {
+        console.error('Unexpected error, try in another terminal')
+    } else {
+        console.error('Unexpected error')
+    }
 })
