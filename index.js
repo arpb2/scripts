@@ -1,4 +1,5 @@
 const inquirer = require('inquirer');
+const loadLevels = require('./load_levels');
 
 inquirer.prompt([
    {
@@ -10,7 +11,7 @@ inquirer.prompt([
 ]).then(answers => {
   switch (answers.mode) {
       case 'Level loading':
-          console.log('load');
+          loadLevels();
           
           break;
   
