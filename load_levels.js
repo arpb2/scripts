@@ -13,8 +13,11 @@ const loadLevels = () => {
       fs.readFile(`${directoryPath}/${file}`, (err, data) => {
         if (err) throw err;
         const level = JSON.parse(data);
-        axios.post(`${process.env.BACKEND_HOST}/levels`, {
+        axios.put(`${process.env.BACKEND_HOST}/levels/${path.parse(file).name}`, {
           body: level,
+          headers: {
+            Authorization: 'DEBUG',
+          },
         }).then((response) => {
           console.log(response);
         }).catch((error) => {

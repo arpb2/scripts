@@ -1,0 +1,49 @@
+{
+    "id": 2,
+    "name": "test name for level",
+    "description": "some description of the level",
+    "definition": {
+        "origin": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "orientation": "N"
+        },
+        "destination": {
+            "position": {
+                "x": 2,
+                "y": 3
+            }
+        },
+        "minimal_dimension": {
+            "rows": 3,
+            "columns": 3
+        },
+        "collectibles": [
+            {
+                "position": {
+                    "x": 1,
+                    "y": 2
+                },
+                "type": "coin"
+            },
+            {
+                "position": {
+                    "x": 4,
+                    "y": 3
+                },
+                "type": "key"
+            }
+        ],
+        "pads": [
+            {
+                "position": {
+                    "x": 2,
+                    "y": 2
+                },
+                "type": "colour"
+            }
+        ]
+    }
+}
