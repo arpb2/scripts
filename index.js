@@ -1,6 +1,8 @@
 const inquirer = require('inquirer');
 const loadLevels = require('./load_levels');
 
+require('dotenv').config()
+
 inquirer.prompt([
    {
        type: 'list',
