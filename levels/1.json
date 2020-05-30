@@ -1,7 +1,7 @@
 {
     "id": 1,
     "name": "Tutorial",
-    "description": "",
+    "description": "\u00A1Bienvenido a ARPB2!\\nPrimero tomemos confianza con nuestro robot y movamonos por el nivel. Alcanz\u00E1 la meta moviendote usando los bloques que se encuentran dentro de \"Acciones\".\\nLos bloques se pueden unir para formar una cadena que mueva al robot. Si te equivocas simplemente tira el o los bloques al tacho.\\nUna vez que tengas los bloques que crees que te van a hacer llegar al objetivo simplemente probalos. Para esto vas a tener que compilar tus bloques y traducirilos al idioma de ARPB2.\\n\u00BFQu\u00E9 es la compilaci\u00F3n?\\nEn inform\u00E1tica la compilaci\u00F3n es la transformaci\u00F3n de un programa escrito en un lenguaje de programacion, llamado c\u00F3digo fuente, a otro. El lenguaje al que se traduce,\\nconocido como lenguaje objetivo, es c\u00F3digo m\u00E1quina o c\u00F3digo intermedio. El lenguaje objetivo es lo que entienden las computadores y lo que va a mover a nuestro robot.\\nDentro de ARPB2 podes observar como tu programa hecho con bloques se escribiria en distintos lenguajes de programaci\u00F3n reales.\\nUna vez que hayas compilado tu c\u00F3digo oprimiendo el bot\u00F3n \"Compilar\" simplemente ejecut\u00E1 tu c\u00F3digo y mir\u00E1 como ARPB2 se mueve.\\nEn ARPB2 confiamos en vos y tu capacidad de aprendizaje asi que cuando estes listo podes avanzar al siguiente nivel.",
     "definition": {
         "minimal_dimensions": {
             "rows": 2,
