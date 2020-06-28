@@ -16,7 +16,7 @@
                 "y": 3
             }
         },
-        "minimal_dimension": {
+        "minimal_dimensions": {
             "rows": 10,
             "columns": 10
         },
