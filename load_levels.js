@@ -16,7 +16,7 @@ const loadLevels = () => {
         axios.put(`${process.env.BACKEND_HOST}/levels/${path.parse(file).name}`, {
           body: level,
           headers: {
-            Authorization: 'DEBUG',
+            Authorization: 'mocksecrettokenadmin',
           },
         }).then((response) => {
           console.log(response);
