@@ -1,7 +1,7 @@
 {
-    "id": 2,
-    "name": "Compilación y ejecución",
-    "description": "\u00BFQu\u00E9 es la compilaci\u00F3n?\\nEn inform\u00E1tica la compilaci\u00F3n es la transformaci\u00F3n de un programa escrito en un lenguaje de programacion, llamado c\u00F3digo fuente, a otro. El lenguaje al que se traduce,\\nconocido como lenguaje objetivo, es c\u00F3digo m\u00E1quina o c\u00F3digo intermedio. El lenguaje objetivo es lo que entienden las computadores y lo que va a mover a nuestro robot.",
+    "id": 5,
+    "name": "Ciclos",
+    "description": "Cuando necesites hacer una acción n veces podes simplemente repetir la instrucción o bien usar un ciclo (o loop). Un ciclo repite la ejecución del código que esta dentro de él n veces. También tenemos otros ciclos como los while o do/while donde se repite hasta que la condición que pongamos sea falsa. Intentá llegar al objetivo repitiendo la menor cantidad de acciones posibles usando ciclos.",
     "definition": {
         "origin": {
             "position": {
@@ -12,8 +12,8 @@
         },
         "destination": {
             "position": {
-                "x": 2,
-                "y": 3
+                "x": 9,
+                "y": 9
             }
         },
         "minimal_dimensions": {
@@ -23,14 +23,14 @@
         "collectibles": [
             {
                 "position": {
-                    "x": 1,
-                    "y": 2
+                    "x": 5,
+                    "y": 5
                 }
             },
             {
                 "position": {
-                    "x": 4,
-                    "y": 3
+                    "x": 7,
+                    "y": 7
                 }
             }
         ],
@@ -43,8 +43,8 @@
             },
             {
                 "position": {
-                    "x": 4,
-                    "y": 4
+                    "x": 5,
+                    "y": 5
                 }
             }
         ]

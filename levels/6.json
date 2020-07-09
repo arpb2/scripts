@@ -1,7 +1,7 @@
 {
-    "id": 2,
-    "name": "Compilación y ejecución",
-    "description": "\u00BFQu\u00E9 es la compilaci\u00F3n?\\nEn inform\u00E1tica la compilaci\u00F3n es la transformaci\u00F3n de un programa escrito en un lenguaje de programacion, llamado c\u00F3digo fuente, a otro. El lenguaje al que se traduce,\\nconocido como lenguaje objetivo, es c\u00F3digo m\u00E1quina o c\u00F3digo intermedio. El lenguaje objetivo es lo que entienden las computadores y lo que va a mover a nuestro robot.",
+    "id": 6,
+    "name": "Listas",
+    "description": "Una lista es una colleción de elementos. Estas pueden estar vacias, pueden contener 1 o más elementos y sobre ellas podemos realizar operaciones. Por ejemplo podemos contar cuantos elementos tiene, obtener un elemento de una posición, recorrer la lista y realizar acciones sobre cada elemento y más.",
     "definition": {
         "origin": {
             "position": {
@@ -12,8 +12,8 @@
         },
         "destination": {
             "position": {
-                "x": 2,
-                "y": 3
+                "x": 7,
+                "y": 7
             }
         },
         "minimal_dimensions": {
@@ -23,28 +23,28 @@
         "collectibles": [
             {
                 "position": {
-                    "x": 1,
-                    "y": 2
+                    "x": 2,
+                    "y": 5
                 }
             },
             {
                 "position": {
-                    "x": 4,
-                    "y": 3
+                    "x": 7,
+                    "y": 7
                 }
             }
         ],
         "pads": [
             {
                 "position": {
-                    "x": 2,
+                    "x": 3,
                     "y": 2
                 }
             },
             {
                 "position": {
-                    "x": 4,
-                    "y": 4
+                    "x": 8,
+                    "y": 9
                 }
             }
         ]
