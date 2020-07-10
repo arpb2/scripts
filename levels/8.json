@@ -1,0 +1,52 @@
+{
+    "id": 8,
+    "name": "Funciones",
+    "description": "Así como las variables nos permiten almacenar datos para referenciarlos luego, existe otro concepto conocido como función, que nos permite llamar a un código que vamos a utilizar varias veces sin tener que volver a escribirlo. Probemos realizar una función que nos mueva hacia adelante y a la izquierda y llamarla las veces que sea necesario para llegar al objetivo.",
+    "definition": {
+        "origin": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "orientation": "N"
+        },
+        "destination": {
+            "position": {
+                "x": 10,
+                "y": 10
+            }
+        },
+        "minimal_dimensions": {
+            "rows": 10,
+            "columns": 10
+        },
+        "collectibles": [
+            {
+                "position": {
+                    "x": 3,
+                    "y": 7
+                }
+            },
+            {
+                "position": {
+                    "x": 5,
+                    "y": 10
+                }
+            }
+        ],
+        "pads": [
+            {
+                "position": {
+                    "x": 3,
+                    "y": 1
+                }
+            },
+            {
+                "position": {
+                    "x": 8,
+                    "y": 8
+                }
+            }
+        ]
+    }
+}
