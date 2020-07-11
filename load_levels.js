@@ -3,6 +3,7 @@ const path = require('path');
 const fs = require('fs');
 
 const directoryPath = path.join(__dirname, 'levels');
+axios.defaults.headers.common.Authorization = 'mocksecrettokenadmin';
 
 const loadLevels = () => {
   fs.readdir(directoryPath, (err, files) => {
@@ -13,13 +14,8 @@ const loadLevels = () => {
       fs.readFile(`${directoryPath}/${file}`, (err, data) => {
         if (err) throw err;
         const level = JSON.parse(data);
-        axios.put(`${process.env.BACKEND_HOST}/levels/${path.parse(file).name}`, {
-          body: level,
-          headers: {
-            Authorization: 'mocksecrettokenadmin',
-          },
-        }).then((response) => {
-          console.log(response);
+        axios.put(`${process.env.BACKEND_HOST}/levels/${path.parse(file).name}`, level).then((response) => {
+          console.log(response.statusText);
         }).catch((error) => {
           console.error('Error running level loading');
           console.error(error.toJSON());
