@@ -2,49 +2,51 @@
     "id": 5,
     "name": "Ciclos",
     "description": "Cuando necesites hacer una acción n veces podes simplemente repetir la instrucción o bien usar un ciclo (o loop). Un ciclo repite la ejecución del código que esta dentro de él n veces. También tenemos otros ciclos como los while o do/while donde se repite hasta que la condición que pongamos sea falsa. Intentá llegar al objetivo repitiendo la menor cantidad de acciones posibles usando ciclos.",
-    "origin": {
-        "position": {
-            "x": 0,
-            "y": 0
-        },
-        "orientation": "N"
-    },
-    "destination": {
-        "position": {
-            "x": 9,
-            "y": 9
-        }
-    },
-    "minimal_dimensions": {
-        "rows": 10,
-        "columns": 10
-    },
-    "collectibles": [
-        {
+    "definition": {
+        "origin": {
             "position": {
-                "x": 5,
-                "y": 5
+                "x": 0,
+                "y": 0
+            },
+            "orientation": "N"
+        },
+        "destination": {
+            "position": {
+                "x": 9,
+                "y": 9
             }
         },
-        {
-            "position": {
-                "x": 7,
-                "y": 7
-            }
-        }
-    ],
-    "pads": [
-        {
-            "position": {
-                "x": 2,
-                "y": 2
-            }
+        "minimal_dimensions": {
+            "rows": 10,
+            "columns": 10
         },
-        {
-            "position": {
-                "x": 5,
-                "y": 5
+        "collectibles": [
+            {
+                "position": {
+                    "x": 5,
+                    "y": 5
+                }
+            },
+            {
+                "position": {
+                    "x": 7,
+                    "y": 7
+                }
             }
-        }
-    ]
+        ],
+        "pads": [
+            {
+                "position": {
+                    "x": 2,
+                    "y": 2
+                }
+            },
+            {
+                "position": {
+                    "x": 5,
+                    "y": 5
+                }
+            }
+        ]
+    }
 }

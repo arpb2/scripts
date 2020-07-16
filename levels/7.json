@@ -2,49 +2,51 @@
     "id": 7,
     "name": "Variables",
     "description": "¿Qué sucede si queremos guardar un dato para re utilizarlo luego? Las variables son como cajitas donde podemos guardar valores para usarlos luego. Como su nombre indica el valor que almacenan puede ir variando a lo largo del tiempo pero la variable en sí sigue siendo la misma. Nos permiten almacenar desde números, letras, strings hasta estructuras complejas como listas. Intentá llegar a la meta guardando las acciones a realizar en variables.",
-    "origin": {
-        "position": {
-            "x": 0,
-            "y": 0
-        },
-        "orientation": "N"
-    },
-    "destination": {
-        "position": {
-            "x": 1,
-            "y": 9
-        }
-    },
-    "minimal_dimensions": {
-        "rows": 10,
-        "columns": 10
-    },
-    "collectibles": [
-        {
+    "definition": {
+        "origin": {
             "position": {
-                "x": 9,
-                "y": 1
-            }
+                "x": 0,
+                "y": 0
+            },
+            "orientation": "N"
         },
-        {
-            "position": {
-                "x": 3,
-                "y": 7
-            }
-        }
-    ],
-    "pads": [
-        {
-            "position": {
-                "x": 8,
-                "y": 2
-            }
-        },
-        {
+        "destination": {
             "position": {
                 "x": 1,
-                "y": 7
+                "y": 9
             }
-        }
-    ]
+        },
+        "minimal_dimensions": {
+            "rows": 10,
+            "columns": 10
+        },
+        "collectibles": [
+            {
+                "position": {
+                    "x": 9,
+                    "y": 1
+                }
+            },
+            {
+                "position": {
+                    "x": 3,
+                    "y": 7
+                }
+            }
+        ],
+        "pads": [
+            {
+                "position": {
+                    "x": 8,
+                    "y": 2
+                }
+            },
+            {
+                "position": {
+                    "x": 1,
+                    "y": 7
+                }
+            }
+        ]
+    }
 }
