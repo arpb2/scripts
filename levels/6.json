@@ -2,51 +2,49 @@
     "id": 6,
     "name": "Listas",
     "description": "Una lista es una colleción de elementos. Estas pueden estar vacias, pueden contener 1 o más elementos y sobre ellas podemos realizar operaciones. Por ejemplo podemos contar cuantos elementos tiene, obtener un elemento de una posición, recorrer la lista y realizar acciones sobre cada elemento y más.",
-    "definition": {
-        "origin": {
-            "position": {
-                "x": 0,
-                "y": 0
-            },
-            "orientation": "N"
+    "origin": {
+        "position": {
+            "x": 0,
+            "y": 0
         },
-        "destination": {
+        "orientation": "N"
+    },
+    "destination": {
+        "position": {
+            "x": 7,
+            "y": 7
+        }
+    },
+    "minimal_dimensions": {
+        "rows": 10,
+        "columns": 10
+    },
+    "collectibles": [
+        {
+            "position": {
+                "x": 2,
+                "y": 5
+            }
+        },
+        {
             "position": {
                 "x": 7,
                 "y": 7
             }
-        },
-        "minimal_dimensions": {
-            "rows": 10,
-            "columns": 10
-        },
-        "collectibles": [
-            {
-                "position": {
-                    "x": 2,
-                    "y": 5
-                }
-            },
-            {
-                "position": {
-                    "x": 7,
-                    "y": 7
-                }
+        }
+    ],
+    "pads": [
+        {
+            "position": {
+                "x": 3,
+                "y": 2
             }
-        ],
-        "pads": [
-            {
-                "position": {
-                    "x": 3,
-                    "y": 2
-                }
-            },
-            {
-                "position": {
-                    "x": 8,
-                    "y": 9
-                }
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 9
             }
-        ]
-    }
+        }
+    ]
 }

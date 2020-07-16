@@ -2,51 +2,49 @@
     "id": 4,
     "name": "Textos (o Strings)",
     "description": "No todo es numeros y valores booleanos en el mundo de la programaci\u00F3n. Tambien las palabras juegan un papel importante.\r\n\r\nLos caracteres se conocen como chars y las cadenas de estos, ya sean una o varias palabras como 'Strings'.\r\n\r\nDentro de la secci\u00F3n de texto vas a poder ver todo lo que podes hacer con strings, obtener letras sueltas, contar sus letras, transformarlos a mayusculas o minusculas y mucho mas.\r\n\r\nLos resultados tambien podes usarlos dentro de las condiciones que aprendiste en el nivel pasado. Prob\u00E1 combinar que pasa si usas el bloque 'is empty' dentro de la condici\u00F3n del 'If'.",
-    "definition": {
-        "origin": {
-            "position": {
-                "x": 0,
-                "y": 0
-            },
-            "orientation": "N"
+    "origin": {
+        "position": {
+            "x": 0,
+            "y": 0
         },
-        "destination": {
+        "orientation": "N"
+    },
+    "destination": {
+        "position": {
+            "x": 2,
+            "y": 3
+        }
+    },
+    "minimal_dimensions": {
+        "rows": 10,
+        "columns": 10
+    },
+    "collectibles": [
+        {
             "position": {
-                "x": 2,
+                "x": 1,
+                "y": 2
+            }
+        },
+        {
+            "position": {
+                "x": 4,
                 "y": 3
             }
-        },
-        "minimal_dimensions": {
-            "rows": 10,
-            "columns": 10
-        },
-        "collectibles": [
-            {
-                "position": {
-                    "x": 1,
-                    "y": 2
-                }
-            },
-            {
-                "position": {
-                    "x": 4,
-                    "y": 3
-                }
+        }
+    ],
+    "pads": [
+        {
+            "position": {
+                "x": 2,
+                "y": 2
             }
-        ],
-        "pads": [
-            {
-                "position": {
-                    "x": 2,
-                    "y": 2
-                }
-            },
-            {
-                "position": {
-                    "x": 5,
-                    "y": 5
-                }
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 5
             }
-        ]
-    }
+        }
+    ]
 }

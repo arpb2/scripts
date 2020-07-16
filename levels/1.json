@@ -1,23 +1,21 @@
 {
     "id": 1,
     "name": "Tutorial",
-    "description": "\u00A1Bienvenido a ARPB2!\\nPrimero tomemos confianza con nuestro robot y movamonos por el nivel. Alcanz\u00E1 la meta moviendote usando los bloques que se encuentran dentro de \"Acciones\".\\nLos bloques se pueden unir para formar una cadena que mueva al robot. Si te equivocas simplemente tira el o los bloques al tacho.\\nUna vez que tengas los bloques que crees que te van a hacer llegar al objetivo simplemente probalos. Para esto vas a tener que compilar tus bloques y traducirilos al idioma de ARPB2.\\nDentro de ARPB2 podes observar como tu programa hecho con bloques se escribiria en distintos lenguajes de programaci\u00F3n reales.\\nUna vez que hayas compilado tu c\u00F3digo oprimiendo el bot\u00F3n \"Compilar\" simplemente ejecut\u00E1 tu c\u00F3digo y mir\u00E1 como ARPB2 se mueve.\\nEn ARPB2 confiamos en vos y tu capacidad de aprendizaje asi que cuando estes listo podes avanzar al siguiente nivel.",
-    "definition": {
-        "minimal_dimensions": {
-            "rows": 2,
-            "columns": 3
-        },
-        "origin": {
-            "position": {
-                "x": 2,
-                "y": 2
-            }
-        },
-        "destination": {
-            "position": {
-                "x": 2,
-                "y": 3
-            }
+    "description": "\u00A1Bienvenido a ARPB2!\r\n\r\nPrimero tomemos confianza con nuestro robot y movamonos por el nivel. Alcanz\u00E1 la meta moviendote usando los bloques que se encuentran dentro de \"Acciones\".\r\n\r\nLos bloques se pueden unir para formar una cadena que mueva al robot. Si te equivocas simplemente tira el o los bloques al tacho.\r\n\r\nUna vez que tengas los bloques que crees que te van a hacer llegar al objetivo simplemente probalos. Para esto vas a tener que compilar tus bloques y traducirilos al idioma de ARPB2.\r\n\r\nDentro de ARPB2 podes observar como tu programa hecho con bloques se escribiria en distintos lenguajes de programaci\u00F3n reales.\r\n\r\nUna vez que hayas compilado tu c\u00F3digo oprimiendo el bot\u00F3n \"Compilar\" simplemente ejecut\u00E1 tu c\u00F3digo y mir\u00E1 como ARPB2 se mueve.\r\n\r\nEn ARPB2 confiamos en vos y tu capacidad de aprendizaje asi que cuando estes listo podes avanzar al siguiente nivel.",
+    "minimal_dimensions": {
+        "rows": 2,
+        "columns": 3
+    },
+    "origin": {
+        "position": {
+            "x": 2,
+            "y": 2
+        }
+    },
+    "destination": {
+        "position": {
+            "x": 2,
+            "y": 3
         }
     }
 }
