@@ -17,8 +17,8 @@
             }
         },
         "minimal_dimensions": {
-            "rows": 10,
-            "columns": 10
+            "rows": 7,
+            "columns": 7
         },
         "collectibles": [
             {
@@ -29,8 +29,8 @@
             },
             {
                 "position": {
-                    "x": 7,
-                    "y": 7
+                    "x": 6,
+                    "y": 2
                 }
             }
         ],
@@ -43,8 +43,8 @@
             },
             {
                 "position": {
-                    "x": 8,
-                    "y": 9
+                    "x": 4,
+                    "y": 1
                 }
             }
         ]

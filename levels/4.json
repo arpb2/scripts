@@ -17,8 +17,8 @@
             }
         },
         "minimal_dimensions": {
-            "rows": 10,
-            "columns": 10
+            "rows": 7,
+            "columns": 7
         },
         "collectibles": [
             {

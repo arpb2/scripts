@@ -12,25 +12,25 @@
         },
         "destination": {
             "position": {
-                "x": 10,
-                "y": 10
+                "x": 7,
+                "y": 7
             }
         },
         "minimal_dimensions": {
-            "rows": 10,
-            "columns": 10
+            "rows": 7,
+            "columns": 7
         },
         "collectibles": [
             {
                 "position": {
                     "x": 3,
-                    "y": 7
+                    "y": 6
                 }
             },
             {
                 "position": {
                     "x": 5,
-                    "y": 10
+                    "y": 6
                 }
             }
         ],
@@ -43,8 +43,8 @@
             },
             {
                 "position": {
-                    "x": 8,
-                    "y": 8
+                    "x": 6,
+                    "y": 3
                 }
             }
         ]

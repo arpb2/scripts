@@ -13,17 +13,17 @@
         "destination": {
             "position": {
                 "x": 1,
-                "y": 9
+                "y": 7
             }
         },
         "minimal_dimensions": {
-            "rows": 10,
-            "columns": 10
+            "rows": 7,
+            "columns": 7
         },
         "collectibles": [
             {
                 "position": {
-                    "x": 9,
+                    "x": 7,
                     "y": 1
                 }
             },
@@ -37,7 +37,7 @@
         "pads": [
             {
                 "position": {
-                    "x": 8,
+                    "x": 5,
                     "y": 2
                 }
             },
