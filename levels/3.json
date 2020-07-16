@@ -2,51 +2,49 @@
     "id": 3,
     "name": "Lógica Binaria",
     "description": "ARPB2 es un ser inteligente y sabe interpretar condiciones. Su l\u00F3gica se conoce como l\u00F3gica binaria.\r\n\r\nEn esta l\u00F3gica los valores pueden ser solo dos, verdadero o falso, s\u00ED o no, 1 o 0. Este conocimiento permite que ARPB2 tome decisiones en base a si se cumplen ciertas condiciones.\r\n\r\n\u00A1Probemoslo! Dentro de la secci\u00F3n de l\u00F3gica vas a encontrar bloques para preguntar por condiciones, usando numeros, los valores verdadero o falso y operadores l\u00F3gicos como AND y OR.\r\nHac\u00E9 tus condiciones tan complejas como quieras y mir\u00E1 el resultado en el c\u00F3digo debajo. Pod\u00E9s incluso hasta anidar condiciones.\r\n\r\nUna vez que estes listo compilá tu c\u00F3digo y mir\u00E1 como ARPB2 solo ejecuta las acciones que estan dentro de las condiciones que son verdaderas.",
-    "definition": {
-        "origin": {
-            "position": {
-                "x": 0,
-                "y": 0
-            },
-            "orientation": "N"
+    "origin": {
+        "position": {
+            "x": 0,
+            "y": 0
         },
-        "destination": {
+        "orientation": "N"
+    },
+    "destination": {
+        "position": {
+            "x": 2,
+            "y": 3
+        }
+    },
+    "minimal_dimensions": {
+        "rows": 10,
+        "columns": 10
+    },
+    "collectibles": [
+        {
             "position": {
-                "x": 2,
+                "x": 1,
+                "y": 2
+            }
+        },
+        {
+            "position": {
+                "x": 4,
                 "y": 3
             }
-        },
-        "minimal_dimensions": {
-            "rows": 10,
-            "columns": 10
-        },
-        "collectibles": [
-            {
-                "position": {
-                    "x": 1,
-                    "y": 2
-                }
-            },
-            {
-                "position": {
-                    "x": 4,
-                    "y": 3
-                }
+        }
+    ],
+    "pads": [
+        {
+            "position": {
+                "x": 2,
+                "y": 2
             }
-        ],
-        "pads": [
-            {
-                "position": {
-                    "x": 2,
-                    "y": 2
-                }
-            },
-            {
-                "position": {
-                    "x": 4,
-                    "y": 4
-                }
+        },
+        {
+            "position": {
+                "x": 4,
+                "y": 4
             }
-        ]
-    }
+        }
+    ]
 }

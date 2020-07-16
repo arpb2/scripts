@@ -2,51 +2,49 @@
     "id": 9,
     "name": "Funciones (parte 2)",
     "description": "Así como la funciones pueden realizar procedimientos, tambien pueden devolver valores. El valor que retornan lo podemos usar para cualquier cosa, asignar a una variable, hacer una suma, etc. Probá hacer una función que devuelva un numero distinto cada vez y si es par nos movemos hacia adelante.",
-    "definition": {
-        "origin": {
-            "position": {
-                "x": 0,
-                "y": 0
-            },
-            "orientation": "N"
+    "origin": {
+        "position": {
+            "x": 0,
+            "y": 0
         },
-        "destination": {
+        "orientation": "N"
+    },
+    "destination": {
+        "position": {
+            "x": 10,
+            "y": 10
+        }
+    },
+    "minimal_dimensions": {
+        "rows": 10,
+        "columns": 10
+    },
+    "collectibles": [
+        {
             "position": {
-                "x": 10,
+                "x": 3,
+                "y": 7
+            }
+        },
+        {
+            "position": {
+                "x": 5,
                 "y": 10
             }
-        },
-        "minimal_dimensions": {
-            "rows": 10,
-            "columns": 10
-        },
-        "collectibles": [
-            {
-                "position": {
-                    "x": 3,
-                    "y": 7
-                }
-            },
-            {
-                "position": {
-                    "x": 5,
-                    "y": 10
-                }
+        }
+    ],
+    "pads": [
+        {
+            "position": {
+                "x": 3,
+                "y": 1
             }
-        ],
-        "pads": [
-            {
-                "position": {
-                    "x": 3,
-                    "y": 1
-                }
-            },
-            {
-                "position": {
-                    "x": 8,
-                    "y": 8
-                }
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 8
             }
-        ]
-    }
+        }
+    ]
 }
