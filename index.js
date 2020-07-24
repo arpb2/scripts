@@ -1,5 +1,6 @@
 const inquirer = require('inquirer');
 const loadLevels = require('./load_levels');
+const mockUsers = require('./mock_users');
 
 require('dotenv').config();
 
@@ -8,7 +9,7 @@ inquirer.prompt([
     type: 'list',
     name: 'mode',
     message: 'Select the mode to run',
-    choices: ['Level loading', 'Quit'],
+    choices: ['Level loading', 'User mocking', 'Quit'],
   },
 ]).then((answers) => {
   switch (answers.mode) {
@@ -16,7 +17,10 @@ inquirer.prompt([
       loadLevels();
 
       break;
+    case 'User mocking':
+      mockUsers();
 
+      break;
     default:
       console.log('Bye!');
 

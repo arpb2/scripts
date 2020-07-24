@@ -1,0 +1,11 @@
+{
+  "name": "Dario",
+  "surname": "Dumas",
+  "email": "dariodumas@gmail.com",
+  "password": "testpassword",
+  "type": "student",
+  "tokens": {
+    "web": "webToken",
+    "device": "deviceToken"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Graciela",
+  "surname": "Borges",
+  "email": "gracielaborges@gmail.com",
+  "password": "testpassword",
+  "type": "teacher",
+  "tokens": {
+    "web": "webToken",
+    "device": "deviceToken"
+  }
+}

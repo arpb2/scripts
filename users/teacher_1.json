@@ -1,0 +1,11 @@
+{
+  "name": "Florencia",
+  "surname": "Mendez",
+  "email": "florenciamendez@gmail.com",
+  "password": "testpassword",
+  "type": "teacher",
+  "tokens": {
+    "web": "webToken",
+    "device": "deviceToken"
+  }
+}

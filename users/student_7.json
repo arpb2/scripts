@@ -1,0 +1,11 @@
+{
+  "name": "Franco",
+  "surname": "Fuente",
+  "email": "francofuente@gmail.com",
+  "password": "testpassword",
+  "type": "student",
+  "tokens": {
+    "web": "webToken",
+    "device": "deviceToken"
+  }
+}
