@@ -15,3 +15,6 @@ yarn run start
 
 ### Level loading
 Creates the defined levels in the levels folders one by one
+
+### User mocking
+Creates some users, students and teachers, to use inside the app
