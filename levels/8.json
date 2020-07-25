@@ -1,7 +1,7 @@
 {
     "id": 8,
     "name": "Funciones",
-    "description": "Así como las variables nos permiten almacenar datos para referenciarlos luego, existe otro concepto conocido como función, que nos permite llamar a un código que vamos a utilizar varias veces sin tener que volver a escribirlo. Probemos realizar una función que nos mueva hacia adelante y a la izquierda y llamarla las veces que sea necesario para llegar al objetivo.",
+    "description": "Así como las variables nos permiten almacenar datos para referenciarlos luego, existe otro concepto conocido como función, que nos permite llamar a un código que vamos a utilizar varias veces sin tener que volver a escribirlo.\r\n Las funciones pueden recibir parametros que modifican su comportamiento de acuerdo a como hagamos uso de dicha variable dentro del código de nuestra función.\r\n Gracias a las funciones podemos segmentar nuestro código en distintas partes para hacerlo más legible y sencillo.\r\n Probemos realizar una función que nos mueva hacia adelante y a la izquierda y llamarla las veces que sea necesario para llegar al objetivo.",
     "definition": {
         "origin": {
             "position": {
