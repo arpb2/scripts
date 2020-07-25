@@ -1,7 +1,7 @@
 {
     "id": 5,
     "name": "Ciclos",
-    "description": "Cuando necesites hacer una acción n veces podes simplemente repetir la instrucción o bien usar un ciclo (o loop). Un ciclo repite la ejecución del código que esta dentro de él n veces. También tenemos otros ciclos como los while o do/while donde se repite hasta que la condición que pongamos sea falsa. Intentá llegar al objetivo repitiendo la menor cantidad de acciones posibles usando ciclos.",
+    "description": "Cuando necesites hacer una acción repetidas veces podes simplemente repetir la instrucción o bien usar un ciclo (o loop).\r\n Un ciclo repite la ejecución del código que esta dentro de él n veces.\r\n Existen varios tipos de ciclos. Los ciclos for repiten el bloque de código que tienen dentro hasta que la condición de corte que definimos cuando lo creamos se cumple. También tenemos otros ciclos como los while o do/while donde se repite hasta que la condición que pongamos sea falsa.\r\n El uso de ciclos nos permite escribir una sola vez las instrucciones que queremos ejecutar. Incluso podemos asignar una variable (que las veremos más adelante) para que la cantidad de veces que se ejecuta el ciclo se defina dinamicamente.\r\n Intentá llegar al objetivo repitiendo la menor cantidad de acciones posibles usando ciclos.",
     "definition": {
         "origin": {
             "position": {
@@ -12,8 +12,8 @@
         },
         "destination": {
             "position": {
-                "x": 7,
-                "y": 7
+                "x": 6,
+                "y": 0
             }
         },
         "minimal_dimensions": {
