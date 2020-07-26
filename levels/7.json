@@ -1,7 +1,7 @@
 {
     "id": 7,
     "name": "Variables",
-    "description": "¿Qué sucede si queremos guardar un dato para re utilizarlo luego?\r\n Introduzcamos el concepto de variable. Las variables podemos pensarlas como cajitas donde guardar valores para usarlos luego. Como su nombre indica el valor que almacenan puede ir variando a lo largo del tiempo pero la variable en sí sigue siendo la misma.\r\n En una variable se nos permite almacenar desde números, letras, strings hasta estructuras complejas como listas.\r\n ¿Te animás a guardar tu nombre en una variable, luego recorrerlo y por cada letra realizar un movimiento?",
+    "description": "¿Qué sucede si queremos guardar un dato para re utilizarlo luego?\r\n Introduzcamos el concepto de variable. Las variables podemos pensarlas como cajas donde guardar valores para usarlos luego. Como su nombre indica el valor que almacenan puede ir variando a lo largo del tiempo pero la variable en sí sigue siendo la misma.\r\n En una variable se nos permite almacenar desde números, letras, strings hasta estructuras complejas como listas.\r\n ¿Te animás a guardar tu nombre en una variable, luego recorrerlo y por cada letra realizar un movimiento?",
     "definition": {
         "origin": {
             "position": {

@@ -1,7 +1,7 @@
 {
-    "id": 9,
-    "name": "Funciones",
-    "description": "Así como las variables nos permiten almacenar datos para referenciarlos luego, existe otro concepto conocido como función, que nos permite llamar a un código que vamos a utilizar varias veces sin tener que volver a escribirlo.\r\n Las funciones pueden recibir parámetros que modifican su comportamiento de acuerdo a como hagamos uso de dicha variable dentro del código de nuestra función.\r\n Gracias a las funciones podemos segmentar nuestro código en distintas partes para hacerlo más legible y sencillo.\r\n Probemos realizar una función que nos mueva hacia adelante y a la izquierda y llamarla las veces que sea necesario para llegar al objetivo.",
+    "id": 10,
+    "name": "Funciones (parte 2)",
+    "description": "Así como la funciones pueden realizar procedimientos, también pueden devolver valores.\r\n El valor que retornan lo podemos usar para lo que queramos, asignar a una variable, hacer una suma, etc.\r\n El devolver un valor suele ser útil por ejemplo para delegar el calculo de algún valor a una función y que esta nos devuelva dicho valor. El cómo lo calculamos no hace falta que lo tengamos siempre presente y queda encapsulado dentro de la lógica de la función.\r\n Probá hacer una función que devuelva un número distinto cada vez y si es par nos movemos hacia adelante.",
     "definition": {
         "origin": {
             "position": {
@@ -43,8 +43,8 @@
             },
             {
                 "position": {
-                    "x": 4,
-                    "y": 5
+                    "x": 6,
+                    "y": 3
                 }
             }
         ]

@@ -1,7 +1,7 @@
 {
     "id": 8,
-    "name": "Funciones",
-    "description": "Así como las variables nos permiten almacenar datos para referenciarlos luego, existe otro concepto conocido como función, que nos permite llamar a un código que vamos a utilizar varias veces sin tener que volver a escribirlo.\r\n Las funciones pueden recibir parametros que modifican su comportamiento de acuerdo a como hagamos uso de dicha variable dentro del código de nuestra función.\r\n Gracias a las funciones podemos segmentar nuestro código en distintas partes para hacerlo más legible y sencillo.\r\n Probemos realizar una función que nos mueva hacia adelante y a la izquierda y llamarla las veces que sea necesario para llegar al objetivo.",
+    "name": "Diccionarios",
+    "description": "Presentemos otra de las estructuras de datos estrella de la programación, los diccionarios (conocidos también como mapas o arrays asociativos).\r\n Un diccionario es una colección que almacena pares clave-valor. La condición que debe cumplirse es que las claves solo pueden aparecer una vez, es decir no pueden repetirse. El valor asociado a una clave puede ser un numero, string, booleano o una estructura compleja.\r\n Las operaciones más típicas que podemos hacer con un diccionario es agregar un par clave-valor, editar el valor de una clave u obtener el valor asociado a una.\r\n Los diccionarios tienen la particularidad que la búsqueda en ellos de una clave, en las implementaciones más comunes, es extremadamente rápida.\r\n ¡Juguemos un poco con diccionarios! Probá agregar claves y valores a uno y vas a ver cómo se cumplen sus reglas. Luego usalo para llegar a la bandera objetivo",
     "definition": {
         "origin": {
             "position": {
@@ -12,8 +12,8 @@
         },
         "destination": {
             "position": {
-                "x": 6,
-                "y": 6
+                "x": 5,
+                "y": 0
             }
         },
         "minimal_dimensions": {
@@ -23,7 +23,21 @@
         "collectibles": [
             {
                 "position": {
+                    "x": 0,
+                    "y": 4
+                }
+            },
+            {
+                "position": {
                     "x": 3,
+                    "y": 3
+                }
+            }
+        ],
+        "pads": [
+            {
+                "position": {
+                    "x": 1,
                     "y": 6
                 }
             },
@@ -31,20 +45,6 @@
                 "position": {
                     "x": 5,
                     "y": 6
-                }
-            }
-        ],
-        "pads": [
-            {
-                "position": {
-                    "x": 3,
-                    "y": 1
-                }
-            },
-            {
-                "position": {
-                    "x": 4,
-                    "y": 5
                 }
             }
         ]

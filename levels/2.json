@@ -1,7 +1,7 @@
 {
     "id": 2,
     "name": "Compilación y ejecución",
-    "description": "\u00BFQu\u00E9 es la compilaci\u00F3n?\r\n\r\nEn inform\u00E1tica la compilaci\u00F3n es la transformaci\u00F3n de un programa escrito en un lenguaje de programacion, llamado c\u00F3digo fuente, a otro.\r\n\r\nEl lenguaje al que se traduce, conocido como lenguaje objetivo, es c\u00F3digo m\u00E1quina o c\u00F3digo intermedio.\r\n\r\nEl lenguaje objetivo es lo que entienden las computadores y lo que va a mover a nuestro robot.",
+    "description": "\u00BFQu\u00E9 es la compilaci\u00F3n?\r\n\r\nEn inform\u00E1tica la compilaci\u00F3n es la transformaci\u00F3n de un programa escrito en un lenguaje de programación, llamado c\u00F3digo fuente, a otro.\r\n\r\nEl lenguaje al que se traduce, conocido como lenguaje objetivo, es c\u00F3digo m\u00E1quina o c\u00F3digo intermedio.\r\n\r\nEl lenguaje objetivo es lo que entienden las computadores y lo que va a mover a nuestro robot.\r\n Además del tiempo de compilación, que sucede cuando damos click al botón compilar, existe otro tiempo durante nuestro programa que es el tiempo de ejecución. Aquí es donde sucede la magia y nuestro robot interpreta nuestro código y los cambios que van sucediendo en él para poder moverse según las condiciones del momento",
     "definition": {
         "origin": {
             "position": {
